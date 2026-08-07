@@ -73,7 +73,7 @@ export const siteConfig = {
     ],
   },
   analytics: {
-    ga4Id: process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID ?? "",
+    ga4Id: process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID ?? "G-PEP8FKKN8J",
     googleAdsId: process.env.NEXT_PUBLIC_GOOGLE_ADS_ID ?? "",
     googleAdsConversionLabel:
       process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_LABEL ?? "",
