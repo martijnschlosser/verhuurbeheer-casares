@@ -15,7 +15,7 @@ const seoH1BySlug: Record<string, string> = {
   "renovatie-inrichting-casares": "Renovatie en inrichting in Casares",
   "kosten-verhuurbeheer-casares": "Wat kost verhuurbeheer in Casares?",
   "dynamische-prijzen-vakantiewoning":
-    "Dynamische prijzen voor een vakantiewoning in Casares",
+    "Rendement vakantiewoning in Casares met dynamische prijzen",
   "zelf-verhuren-of-verhuurbeheer":
     "Zelf verhuren of verhuurbeheer in Casares?",
   "verhuurlicentie-casares":
