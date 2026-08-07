@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { CookiePreferencesButton } from "./CookieConsent";
 import {
   BedDouble,
@@ -631,7 +630,7 @@ export default function Home() {
       <footer className="site-footer">
         <div className="footer-brand">
           <a className="logo-lockup" href="/" aria-label="Naar Home">
-            <Image
+            <img
               src="/vbs-logo-casares.webp"
               alt="Verhuurbeheer Casares"
               width={640}
