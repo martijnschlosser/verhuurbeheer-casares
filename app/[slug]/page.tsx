@@ -131,6 +131,7 @@ const relatedBySlug: Record<string, string[]> = {
     "verhuurlicentie-casares",
     "kosten-verhuurbeheer-casares",
     "dynamische-prijzen-vakantiewoning",
+    "vastgoedbeheer-casares",
   ],
   "vastgoedbeheer-casares": [
     "schoonmaak-onderhoud-casares",
@@ -156,11 +157,32 @@ const relatedBySlug: Record<string, string[]> = {
     "vakantieverhuur-casares",
     "midterm-verhuur-casares",
     "langetermijnverhuur-casares",
+    "dynamische-prijzen-vakantiewoning",
   ],
   "dynamische-prijzen-vakantiewoning": [
     "vakantieverhuur-casares",
     "kosten-verhuurbeheer-casares",
     "zelf-verhuren-of-verhuurbeheer",
+  ],
+  "zelf-verhuren-of-verhuurbeheer": [
+    "vakantieverhuur-casares",
+    "vastgoedbeheer-casares",
+    "kosten-verhuurbeheer-casares",
+  ],
+  "schoonmaak-onderhoud-casares": [
+    "vastgoedbeheer-casares",
+    "vakantieverhuur-casares",
+    "renovatie-inrichting-casares",
+  ],
+  "renovatie-inrichting-casares": [
+    "vastgoedbeheer-casares",
+    "schoonmaak-onderhoud-casares",
+    "vakantieverhuur-casares",
+  ],
+  "werkwijze": [
+    "vakantieverhuur-casares",
+    "vastgoedbeheer-casares",
+    "kosten-verhuurbeheer-casares",
   ],
 };
 
