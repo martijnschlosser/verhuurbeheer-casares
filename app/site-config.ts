@@ -56,6 +56,8 @@ export const siteConfig = {
       "woningbeheer Casares",
       "vakantiewoning verhuren Casares",
       "Airbnb beheer Casares",
+      "Nederlandse verhuurmakelaar Casares",
+      "sleutelbeheer Casares",
       "verhuurlicentie Casares",
       "appartement verhuren Casares",
       "villa verhuren Casares",
