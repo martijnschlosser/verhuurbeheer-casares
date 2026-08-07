@@ -586,10 +586,7 @@ export default async function ContentRoute({
               </a>
             </div>
           </div>
-          <form
-            action={leadFormAction}
-            method="post"
-          >
+          <FormSubmit action={leadFormAction} thankYouPath={siteConfig.template.thankYouPath}>
             <input type="hidden" name="_subject" value={leadSubject("lead – contactpagina")} />
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_next" value={absoluteUrl("/bedankt/")} />
@@ -658,7 +655,7 @@ export default async function ContentRoute({
               Wij verwerken je gegevens volgens onze{" "}
               <a href="/privacyverklaring/">privacyverklaring</a>.
             </small>
-          </form>
+          </FormSubmit>
         </section>
       )}
       {page.slug === "blog" && featuredBlog ? (
