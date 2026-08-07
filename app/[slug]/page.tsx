@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import { contentBySlug, contentPages } from "../content";
 import { CookiePreferencesButton } from "../CookieConsent";
@@ -817,7 +816,7 @@ export default async function ContentRoute({
       {page.type === "gids" && (
         <section className="blog-lead">
           <div className="blog-lead-person">
-            <Image
+            <img
               src="/sophie-casares.webp"
               alt="Sophie van Verhuurbeheer Casares"
               width={1088}
