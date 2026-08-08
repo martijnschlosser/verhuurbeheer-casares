@@ -365,10 +365,16 @@ export default async function ContentRoute({
     .map((relatedSlug) => contentBySlug[relatedSlug])
     .filter(Boolean);
   const contentVisual = contentVisualBySlug[page.slug];
-  const blogArticles = contentPages.filter(
-    (article) => article.type === "gids" && blogVisualBySlug[article.slug],
-  );
+  const blogArticles = contentPages.filter((article) => article.type === "gids");
+  const blogVisual = (article: (typeof contentPages)[number]) =>
+    blogVisualBySlug[article.slug] ?? {
+      src: siteConfig.assets.hero,
+      alt: `${article.title} in ${siteConfig.location.city}`,
+      category: "Verhuurbeheer",
+      readTime: "5 min",
+    };
   const featuredBlog = blogArticles[0];
+  const featuredBlogVisual = featuredBlog ? blogVisual(featuredBlog) : null;
   const trustItems =
     page.slug === "langetermijnverhuur-casares"
       ? [
@@ -669,16 +675,16 @@ export default async function ContentRoute({
           </div>
           <a className="featured-article" href={`/${featuredBlog.slug}/`}>
             <img
-              src={blogVisualBySlug[featuredBlog.slug].src}
-              alt={blogVisualBySlug[featuredBlog.slug].alt}
+              src={featuredBlogVisual!.src}
+              alt={featuredBlogVisual!.alt}
               width="1600"
               height="1067"
               loading="eager"
             />
             <div>
               <span>
-                {blogVisualBySlug[featuredBlog.slug].category} ·{" "}
-                {blogVisualBySlug[featuredBlog.slug].readTime} lezen
+                {featuredBlogVisual!.category} ·{" "}
+                {featuredBlogVisual!.readTime} lezen
               </span>
               <h3>{featuredBlog.title}</h3>
               <p>{featuredBlog.description}</p>
@@ -691,7 +697,7 @@ export default async function ContentRoute({
           </div>
           <div className="blog-card-grid">
             {blogArticles.slice(1).map((article) => {
-              const visual = blogVisualBySlug[article.slug];
+              const visual = blogVisual(article);
               return (
                 <a
                   className="blog-card"
@@ -956,6 +962,12 @@ export default async function ContentRoute({
           <a href="/langetermijnverhuur-casares/">Langetermijnverhuur</a>
           <a href="/vastgoedbeheer-casares/">Vastgoedbeheer</a>
           <a href="/verhuurlicentie-casares/">Verhuurlicentie</a>
+          <a href="/nederlandse-verhuurmakelaar-casares/">Nederlandse verhuurmakelaar</a>
+          <a href="/sleutelbeheer-casares/">Sleutelbeheer</a>
+          <a href="/appartement-verhuren-casares/">Appartement verhuren</a>
+          <a href="/villa-verhuren-casares/">Villa verhuren</a>
+          <a href="/airbnb-beheer-casares/">Airbnb & Booking beheer</a>
+          <a href="/tweede-woning-beheer-casares/">Tweede woning beheer</a>
         </div>
         <div>
           <b>Meer</b>
