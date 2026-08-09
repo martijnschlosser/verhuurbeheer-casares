@@ -30,6 +30,7 @@ export const siteConfig = {
     hero: "/casares-hero.webp",
     social: "/luxe-woning-casares-zeezicht.webp",
     signup: "/zonnig-terras-zeezicht-casares.webp",
+    sophie: "/sophie-casares.webp",
   },
   domain: "https://verhuurbeheercasares.nl",
   contact: {
