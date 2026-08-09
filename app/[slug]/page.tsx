@@ -46,7 +46,7 @@ const team = [
     name: "Sophie",
     role: "Backoffice",
     languages: "NL · EN · ES",
-    image: "/sophie-casares.webp",
+    image: siteConfig.assets.sophie,
     alt: "Sophie, Nederlandstalig aanspreekpunt en backoffice bij Verhuurbeheer Spanje",
   },
   {
@@ -185,6 +185,13 @@ const relatedBySlug: Record<string, string[]> = {
     "kosten-verhuurbeheer-casares",
   ],
 };
+
+Object.assign(relatedBySlug, {
+  "kustwoning-laagseizoen-beheren-casares": ["tweede-woning-beheer-casares","vastgoedbeheer-casares","schoonmaak-onderhoud-casares","kosten-verhuurbeheer-casares","zelf-verhuren-of-verhuurbeheer"],
+  "tweede-woning-beheer-casares": ["kustwoning-laagseizoen-beheren-casares","vastgoedbeheer-casares","schoonmaak-onderhoud-casares","kosten-verhuurbeheer-casares","zelf-verhuren-of-verhuurbeheer"],
+  "vastgoedbeheer-casares": ["kustwoning-laagseizoen-beheren-casares","tweede-woning-beheer-casares","schoonmaak-onderhoud-casares","kosten-verhuurbeheer-casares","zelf-verhuren-of-verhuurbeheer"],
+  "schoonmaak-onderhoud-casares": ["kustwoning-laagseizoen-beheren-casares","tweede-woning-beheer-casares","vastgoedbeheer-casares","kosten-verhuurbeheer-casares","zelf-verhuren-of-verhuurbeheer"],
+});
 
 const contentVisualBySlug: Record<string, { src: string; alt: string }> = {
   "vakantieverhuur-casares": {
@@ -842,7 +849,7 @@ export default async function ContentRoute({
         <section className="blog-lead">
           <div className="blog-lead-person">
             <img
-              src="/sophie-casares.webp"
+              src={siteConfig.assets.sophie}
               alt="Sophie van Verhuurbeheer Casares"
               width={1088}
               height={1100}
