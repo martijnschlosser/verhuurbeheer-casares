@@ -193,6 +193,13 @@ Object.assign(relatedBySlug, {
   "schoonmaak-onderhoud-casares": ["kustwoning-laagseizoen-beheren-casares","tweede-woning-beheer-casares","vastgoedbeheer-casares","kosten-verhuurbeheer-casares","zelf-verhuren-of-verhuurbeheer"],
 });
 
+Object.assign(relatedBySlug, {
+  "vocht-ventilatie-kustwoning-casares": ["vastgoedbeheer-casares","schoonmaak-onderhoud-casares","tweede-woning-beheer-casares","kustwoning-laagseizoen-beheren-casares","kosten-verhuurbeheer-casares"],
+  "vastgoedbeheer-casares": ["vocht-ventilatie-kustwoning-casares", ...(relatedBySlug["vastgoedbeheer-casares"] ?? []).filter((slug) => slug !== "vocht-ventilatie-kustwoning-casares")].slice(0, 6),
+  "schoonmaak-onderhoud-casares": ["vocht-ventilatie-kustwoning-casares", ...(relatedBySlug["schoonmaak-onderhoud-casares"] ?? []).filter((slug) => slug !== "vocht-ventilatie-kustwoning-casares")].slice(0, 6),
+  "tweede-woning-beheer-casares": ["vocht-ventilatie-kustwoning-casares", ...(relatedBySlug["tweede-woning-beheer-casares"] ?? []).filter((slug) => slug !== "vocht-ventilatie-kustwoning-casares")].slice(0, 6),
+});
+
 const contentVisualBySlug: Record<string, { src: string; alt: string }> = {
   "vakantieverhuur-casares": {
     src: "/luxe-woning-casares-zeezicht.webp",
