@@ -27,6 +27,73 @@ export const contentPages:ContentPage[]=[
 ,
 {"slug":"kustwoning-laagseizoen-beheren-casares","type":"gids","eyebrow":"Praktische gids voor eigenaren","title":"Je kustwoning in Casares beheren buiten het verhuurseizoen","seoTitle":"Kustwoning Casares beheren in laagseizoen | Checklist","description":"Praktische laagseizoencheck voor eigenaren van een woning in Casares Costa: leegstand, sleutelbeheer, woningcontrole, onderhoud en voorbereiding.","intro":"Na een drukke zomer of periode van eigen gebruik kan een woning aan Casares Costa langere tijd stiller staan. Juist dan is het verstandig om inventaris, buitenruimte, installaties en toegang planmatig te controleren.","sections":[{"title":"Sluit het seizoen af met een volledige woningronde","paragraphs":["Controleer niet alleen of de woning schoon is, maar ook of inventaris compleet is, kranen en afvoeren goed functioneren, ramen en deuren sluiten en apparaten geen storingsmelding geven. Leg achterstallig klein onderhoud meteen vast.","Bij appartementen rond Doña Julia, Bahía de Casares en Marina de Casares spelen gemeenschappelijke toegang en terrassen vaak een rol. Voor een woning richting Casares Pueblo of Finca Cortesin kan bereikbaarheid van leveranciers en buitenonderhoud anders worden georganiseerd."],"bullets":["Inventaris en apparatuur","Sanitair en zichtbare lekkages","Terras, afvoer en buitenmeubilair","Sleutels en toegang voor leveranciers"]},{"title":"Bepaal wat tijdens leegstand actief blijft","paragraphs":["Maak bewuste keuzes voor stroom, water, internet, alarm en klimaatregeling. De juiste instelling verschilt per woning en installatie; documenteer daarom wat lokaal gecontroleerd moet worden en wat bij een storing prioriteit heeft.","Een lokale beheerder kan geen technische garanties geven, maar wel afwijkingen eerder signaleren en informatie verzamelen voor jouw besluit."]},{"title":"Plan onderhoud vóór de volgende drukke periode","paragraphs":["Het laagseizoen biedt ruimte voor een deep clean, schilderwerk, meubelherstel of technisch onderhoud zonder een bestaande reservering te verstoren. Werk met een duidelijke opdracht, offerte en terugkoppeling.","Combineer een onderhoudsbezoek waar mogelijk met een woningcheck. Zo worden toegang en lokale planning efficiënt geregeld zonder dat verschillende partijen ongecoördineerd binnenkomen."]},{"title":"Open de woning gecontroleerd voor het nieuwe seizoen","paragraphs":["Controleer vóór de eerste reservering of eigen aankomst opnieuw water, stroom, internet, airconditioning, inventaris en toegang. Laat ook de presentatie aansluiten op de actuele woning, zodat advertenties geen verouderde voorzieningen tonen.","Met deze vaste seizoenscyclus wordt beheer voorspelbaar: afsluiten, controleren, onderhouden en opnieuw gereedmaken."]}],"faqs":[["Moet een kustwoning ook buiten het seizoen worden gecontroleerd?","Ja, wanneer de woning langere tijd leegstaat is een afgesproken controle verstandig."],["Kan onderhoud in het laagseizoen worden gepland?","Ja. Dat voorkomt vaker dat werkzaamheden met eigen verblijf of reserveringen botsen."],["Is verhuur verplicht voor woningbeheer?","Nee. Woningcontrole en sleutelbeheer kunnen zonder verhuur worden afgenomen."],["Krijg ik eerst een prijs voor onderhoud?","Niet-reguliere werkzaamheden worden volgens de afspraken vooraf afgestemd."],["Kunnen jullie de woning voor het nieuwe seizoen gereedmaken?","Ja, controle, schoonmaak en lokale onderhoudscoördinatie kunnen worden gecombineerd."]]}
 ,
-{"slug":"vocht-ventilatie-kustwoning-casares","type":"gids","eyebrow":"Praktische gids voor eigenaren","title":"Vocht en ventilatie beheren in een kustwoning in Casares","seoTitle":"Vocht en ventilatie Casares | Beheer kustwoning","description":"Praktische aanpak voor vocht, ventilatie en woningcontroles in een kustwoning in Casares tijdens leegstand en buiten het verhuurseizoen.","intro":"Een kustwoning in Casares kan tijdens leegstand te maken krijgen met vochtige lucht, condens en weinig luchtcirculatie. Door ventilatie, woningcontrole en onderhoud als één proces te behandelen, worden signalen eerder ontdekt.","sections":[{"title":"Breng risicoplekken per woning in kaart","paragraphs":["Controleer raamhoeken, kasten tegen buitenmuren, badkamers, slaapkamers, berging en ruimtes onder terrassen. Let op verkleuring, loslatende verf, condens, muffe geur en textiel dat klam aanvoelt.","In Casares Costa, Bahía de Casares en Doña Julia verschillen wind, zonligging en bouwtype. Een benedenwoning met tuin vraagt andere punten dan een hoger appartement met groot terras."],"bullets":["Raam- en deurhoeken","Kasten en meubels tegen buitenmuren","Badkamer, berging en textiel","Terrasafvoer en aangrenzende plafonds"]},{"title":"Ventileer op een veilig en passend moment","paragraphs":["Permanent open ramen kunnen regen, wind en beveiligingsproblemen geven. Een beheerder kan tijdens een controle gericht luchten, de weersomstandigheden beoordelen en de woning daarna correct afsluiten.","Combineer ventilatie met controle van airconditioning, roosters en eventuele ontvochtiger. Controleer opvangbak of afvoer en laat apparatuur niet onbeheerd draaien zonder duidelijke instructie en onderhoud."]},{"title":"Pak de oorzaak aan bij terugkerende plekken","paragraphs":["Schoonmaken verwijdert een zichtbaar gevolg, maar niet altijd de oorzaak. Bij terugkerend vocht moet worden onderzocht of het gaat om condens, een lekkage, kitwerk, gevel, terras of een gemeenschappelijk bouwdeel.","Documenteer locatie, omvang en ontwikkeling met foto’s. Een lokale beheerder kan daarna de juiste specialist of comunidad inschakelen en de woning na werkzaamheden opnieuw controleren."]},{"title":"Verbind leegstandsbeheer aan vertrek en terugkomst","paragraphs":["Leg bij vertrek vast welke apparatuur aanblijft, waar water wordt afgesloten, hoe vaak gecontroleerd wordt en wie in een noodsituatie mag handelen. Daarmee wordt ventilatie onderdeel van een bredere leegstandscheck.","Laat vóór terugkomst controleren of de woning droog, schoon en gebruiksklaar is. Zo wordt een probleem niet pas ontdekt wanneer de eigenaar of volgende gast al voor de deur staat."]}],"faqs":[["Is condens hetzelfde als een lekkage?","Nee. Condens ontstaat door vochtige lucht en temperatuurverschil; een lekkage heeft een waterbron. Terugkerende plekken moeten worden onderzocht."],["Kan ik ramen op een kier laten tijdens afwezigheid?","Dat is niet altijd veilig of verstandig. Kies voor gecontroleerde ventilatie passend bij woning en weer."],["Helpt een ontvochtiger?","Een ontvochtiger kan helpen, maar moet correct worden ingesteld, onderhouden en gecontroleerd."],["Wie schakelt de comunidad in bij gevelproblemen?","Dat kan via de eigenaar of binnen de afgesproken lokale beheeropvolging."],["Kunnen vochtcontroles los van verhuur worden uitgevoerd?","Ja, woningcontrole en onderhoudscoördinatie kunnen los van verhuurbeheer worden afgesproken."]]}
+{"slug":"vocht-ventilatie-kustwoning-casares","type":"gids","eyebrow":"Praktische gids voor eigenaren","title":"Vocht en ventilatie beheren in een kustwoning in Casares","seoTitle":"Vocht en ventilatie Casares | Beheer kustwoning","description":"Praktische aanpak voor vocht, ventilatie en woningcontroles in een kustwoning in Casares tijdens leegstand en buiten het verhuurseizoen.","intro":"Een kustwoning in Casares kan tijdens leegstand te maken krijgen met vochtige lucht, condens en weinig luchtcirculatie. Door ventilatie, woningcontrole en onderhoud als één proces te behandelen, worden signalen eerder ontdekt.","sections":[{"title":"Breng risicoplekken per woning in kaart","paragraphs":["Controleer raamhoeken, kasten tegen buitenmuren, badkamers, slaapkamers, berging en ruimtes onder terrassen. Let op verkleuring, loslatende verf, condens, muffe geur en textiel dat klam aanvoelt.","In Casares Costa, Bahía de Casares en Doña Julia verschillen wind, zonligging en bouwtype. Een benedenwoning met tuin vraagt andere punten dan een hoger appartement met groot terras."],"bullets":["Raam- en deurhoeken","Kasten en meubels tegen buitenmuren","Badkamer, berging en textiel","Terrasafvoer en aangrenzende plafonds"]},{"title":"Ventileer op een veilig en passend moment","paragraphs":["Permanent open ramen kunnen regen, wind en beveiligingsproblemen geven. Een beheerder kan tijdens een controle gericht luchten, de weersomstandigheden beoordelen en de woning daarna correct afsluiten.","Combineer ventilatie met controle van airconditioning, roosters en eventuele ontvochtiger. Controleer opvangbak of afvoer en laat apparatuur niet onbeheerd draaien zonder duidelijke instructie en onderhoud."]},{"title":"Pak de oorzaak aan bij terugkerende plekken","paragraphs":["Schoonmaken verwijdert een zichtbaar gevolg, maar niet altijd de oorzaak. Bij terugkerend vocht moet worden onderzocht of het gaat om condens, een lekkage, kitwerk, gevel, terras of een gemeenschappelijk bouwdeel.","Documenteer locatie, omvang en ontwikkeling met foto’s. Een lokale beheerder kan daarna de juiste specialist of comunidad inschakelen en de woning na werkzaamheden opnieuw controleren."]},{"title":"Verbind leegstandsbeheer aan vertrek en terugkomst","paragraphs":["Leg bij vertrek vast welke apparatuur aanblijft, waar water wordt afgesloten, hoe vaak gecontroleerd wordt en wie in een noodsituatie mag handelen. Daarmee wordt ventilatie onderdeel van een bredere leegstandscheck.","Laat vóór terugkomst controleren of de woning droog, schoon en gebruiksklaar is. Zo wordt een probleem niet pas ontdekt wanneer de eigenaar of volgende gast al voor de deur staat."]}],"faqs":[["Is condens hetzelfde als een lekkage?","Nee. Condens ontstaat door vochtige lucht en temperatuurverschil; een lekkage heeft een waterbron. Terugkerende plekken moeten worden onderzocht."],["Kan ik ramen op een kier laten tijdens afwezigheid?","Dat is niet altijd veilig of verstandig. Kies voor gecontroleerde ventilatie passend bij woning en weer."],["Helpt een ontvochtiger?","Een ontvochtiger kan helpen, maar moet correct worden ingesteld, onderhouden en gecontroleerd."],["Wie schakelt de comunidad in bij gevelproblemen?","Dat kan via de eigenaar of binnen de afgesproken lokale beheeropvolging."],["Kunnen vochtcontroles los van verhuur worden uitgevoerd?","Ja, woningcontrole en onderhoudscoördinatie kunnen los van verhuurbeheer worden afgesproken."]]},
+{
+  "slug": "sleutel-en-toegangsplan-casares",
+  "type": "gids",
+  "eyebrow": "Praktische gids voor eigenaren",
+  "title": "Een veilig sleutel- en toegangsplan voor je woning in Casares",
+  "seoTitle": "Sleutelbeheer Casares | Toegangsplan woning",
+  "description": "Maak een veilig toegangsplan voor je woning in Casares met sleutels, passen, garagezenders, leveranciers en noodafspraken.",
+  "intro": "Een reservesleutel is pas bruikbaar wanneer duidelijk is wie hem mag gebruiken, voor welke deur en onder welke voorwaarden. Een toegangsplan voorkomt vertraging en onnodige verspreiding van codes.",
+  "sections": [
+    {
+      "title": "Breng alle toegangslagen in kaart",
+      "paragraphs": [
+        "Noteer poort, garage, portiek, woning, berging en eventuele technische ruimte afzonderlijk. Test sleutels en zenders en registreer hoeveel exemplaren bestaan.",
+        "In Casares Costa, Bahía de Casares en Doña Julia werken urbanisaties met verschillende passen, intercoms en parkeerregels. Voeg daarom route en gebouwinstructie toe, niet alleen het adres."
+      ],
+      "bullets": [
+        "Sleutels en reservesets",
+        "Passen, zenders en codes",
+        "Parkeer- en portiekinstructies",
+        "Berging en technische toegang"
+      ]
+    },
+    {
+      "title": "Werk met minimale toegang per opdracht",
+      "paragraphs": [
+        "Een schoonmaker heeft niet automatisch toegang tot berging of privéruimte nodig. Geef per partij alleen de toegang die voor de opdracht noodzakelijk is.",
+        "Gebruik tijdelijke codes waar het systeem dat veilig ondersteunt en verwijder oude rechten wanneer een samenwerking eindigt."
+      ]
+    },
+    {
+      "title": "Registreer uitgifte, teruggave en afsluiting",
+      "paragraphs": [
+        "Leg vast wie een sleutel ontving, wanneer en voor welk bezoek. Laat na afloop bevestigen dat woning, ramen en toegangspunten correct zijn afgesloten.",
+        "Bij begeleide toegang kan een lokale beheerder openen, aanwezig blijven en een eindcontrole uitvoeren. Dat geeft meer controle bij monteurs of onbekende leveranciers."
+      ]
+    },
+    {
+      "title": "Test het noodplan periodiek",
+      "paragraphs": [
+        "Controleer of sleutels nog passen, zenders geladen zijn en contactpersonen bereikbaar blijven. Werk wijzigingen na een nieuw slot of andere administrateur direct bij.",
+        "Koppel sleutelbeheer aan woningcontrole. Dan wordt toegang niet pas voor het eerst getest wanneer er al een lekkage of urgente melding is."
+      ]
+    }
+  ],
+  "faqs": [
+    [
+      "Waar wordt een beheersleutel bewaard?",
+      "Bij een professioneel sleutelbeheerproces wordt opslag veilig en traceerbaar ingericht."
+    ],
+    [
+      "Mag een leverancier de sleutel meenemen?",
+      "Alleen wanneer dit expliciet is toegestaan; begeleide toegang heeft vaak de voorkeur."
+    ],
+    [
+      "Kunnen codes tijdelijk worden gemaakt?",
+      "Dat hangt af van het aanwezige toegangssysteem."
+    ],
+    [
+      "Wat gebeurt er na verlies van een sleutel?",
+      "Blokkeer waar mogelijk toegang en beoordeel of slot of code moet worden gewijzigd."
+    ],
+    [
+      "Kan sleutelbeheer zonder verhuur?",
+      "Ja, dit kan volledig los van verhuur worden afgenomen."
+    ]
+  ]
+}
 ];
 export const contentBySlug=Object.fromEntries(contentPages.map(p=>[p.slug,p]));
