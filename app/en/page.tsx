@@ -192,7 +192,7 @@ function LocalizedHome() {
     })),
   };
   return (
-    <main>
+    <main lang="en">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
@@ -696,5 +696,5 @@ function LocalizedHome() {
   );
 }
 
-export const metadata = { keywords: ["property management Casares","holiday rental management Casares","Airbnb management Casares","key holding Casares","home checks Casares","second home management Casares","villa management Casares","apartment management Casares"], title: "Property Management Casares | Holiday Rental & Key Holding", description: "Local property management in Casares for international owners: holiday rental management, Airbnb management, key holding, home checks, cleaning and maintenance.", alternates: { canonical: "/en/", languages: { "nl-NL": "/", en: "/en/", es: "/es/", "x-default": "/" } }, openGraph: { locale: "en_GB", url: "/en/", type: "website" as const } };
+export const metadata = { robots: { index: false, follow: true }, keywords: ["property management Casares","holiday rental management Casares","Airbnb management Casares","key holding Casares","home checks Casares","second home management Casares","villa management Casares","apartment management Casares"], title: "Property Management Casares | Holiday Rental & Key Holding", description: "Local property management in Casares for international owners: holiday rental management, Airbnb management, key holding, home checks, cleaning and maintenance.", alternates: { canonical: "/en/", languages: { "nl-NL": "/", en: "/en/", es: "/es/", "x-default": "/" } }, openGraph: { locale: "en_GB", url: "/en/", type: "website" as const } };
 export default LocalizedHome;
