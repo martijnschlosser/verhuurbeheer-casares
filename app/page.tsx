@@ -13,9 +13,8 @@ import {
 } from "lucide-react";
 import {
   absoluteUrl,
-  emailHref,
+  phoneHref,
   leadHref,
-  leadFormAction,
   siteConfig,
   whatsappHref,
 } from "./site-config";
@@ -25,25 +24,25 @@ const homepageTeam = [
     name: "Martijn",
     role: "Relatiemanager",
     image: "/martijn-verhuurbeheer-casares.webp",
-    alt: "Martijn, relatiemanager van Verhuurbeheer Spanje aan de Costa del Sol",
+    alt: "Martijn, relatiemanager van Verhuurbeheer Casares aan de Costa del Sol",
   },
   {
     name: "Geert",
     role: "Manager Bouw",
     image: "/geert-vastgoedbeheer-casares.webp",
-    alt: "Geert, manager bouw en vastgoedbeheer bij Verhuurbeheer Spanje",
+    alt: "Geert, manager bouw en vastgoedbeheer bij Verhuurbeheer Casares",
   },
   {
     name: "Sophie",
     role: "Backoffice",
     image: "/sophie-casares.webp",
-    alt: "Sophie, Nederlandstalig aanspreekpunt bij Verhuurbeheer Spanje",
+    alt: "Sophie, Nederlandstalig aanspreekpunt bij Verhuurbeheer Casares",
   },
   {
     name: "Päivi",
     role: "Administratie",
     image: "/paivi-administratie-verhuurbeheer.webp",
-    alt: "Päivi van de administratie van Verhuurbeheer Spanje",
+    alt: "Päivi van de administratie van Verhuurbeheer Casares",
   },
 ];
 
@@ -134,13 +133,8 @@ export default function Home() {
     "@type": ["Organization", "ProfessionalService"],
     "@id": `${siteConfig.domain}/#organization`,
     name: siteConfig.brand.name,
-    legalName: siteConfig.brand.legalName,
     description:
       "Nederlandstalig fullservice verhuurbeheer, vakantieverhuurbeheer en vastgoedbeheer voor woningeigenaren in Casares.",
-    parentOrganization: {
-      "@type": "Organization",
-      name: "Verhuurbeheer Spanje",
-    },
     areaServed: [
       { "@type": "City", name: "Casares" },
       { "@type": "Place", name: "Casares Pueblo" },
@@ -151,14 +145,10 @@ export default function Home() {
       { "@type": "Place", name: "Finca Cortesin" },
       { "@type": "Place", name: "La Perla de la Bahía" },
     ],
-    email: siteConfig.contact.email,
+    telephone: siteConfig.contact.phone,
     url: absoluteUrl(),
     logo: absoluteUrl("/vbs-logo-casares.webp"),
     image: absoluteUrl("/luxe-woning-casares-zeezicht.webp"),
-    sameAs: [
-      siteConfig.social.instagram,
-      siteConfig.social.facebook,
-    ],
     knowsLanguage: ["nl", "en", "es"],
     knowsAbout: [
       "Verhuurbeheer Casares",
@@ -661,31 +651,8 @@ export default function Home() {
               Verhuurbeheer <b>Casares</b>
             </span>
           </a>
-          <p>
-            Verhuurbeheer Casares is onderdeel van{" "}
-            <span>
-              Verhuurbeheer Spanje
-            </span>
-            .
-          </p>
-          <div className="social-links">
-            <a
-              href={siteConfig.social.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Verhuurbeheer Spanje op Instagram"
-            >
-              <Instagram aria-hidden="true" /> Instagram
-            </a>
-            <a
-              href={siteConfig.social.facebook}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Verhuurbeheer Spanje op Facebook"
-            >
-              <Facebook aria-hidden="true" /> Facebook
-            </a>
-          </div>
+          
+          
         </div>
         <div>
           <b>Diensten</b>
@@ -710,7 +677,7 @@ export default function Home() {
           <a href={whatsappHref()}>
             WhatsApp
           </a>
-          <a href={emailHref}>E-mail</a>
+          <a href={phoneHref}>Telefoon</a>
           <small>© 2026 · Casares · Costa del Sol</small>
         </div>
       </footer>
