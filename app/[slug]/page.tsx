@@ -98,7 +98,6 @@ export async function generateMetadata({
     authors: [
       {
         name: siteConfig.brand.legalName,
-        url: siteConfig.brand.parentUrl,
       },
     ],
     openGraph: {
@@ -370,7 +369,6 @@ export default async function ContentRoute({
         worksFor: {
           "@type": "Organization",
           name: siteConfig.brand.legalName,
-          url: siteConfig.brand.parentUrl,
         },
         image: absoluteUrl(person.image),
       },
@@ -952,9 +950,9 @@ export default async function ContentRoute({
           </a>
           <p>
             Verhuurbeheer Casares is onderdeel van{" "}
-            <a href="https://www.verhuurbeheerspanje.nl/">
+            <span>
               Verhuurbeheer Spanje
-            </a>
+            </span>
             .
           </p>
           <div className="social-links">

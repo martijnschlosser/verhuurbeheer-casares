@@ -140,7 +140,6 @@ export default function Home() {
     parentOrganization: {
       "@type": "Organization",
       name: "Verhuurbeheer Spanje",
-      url: "https://www.verhuurbeheerspanje.nl/",
     },
     areaServed: [
       { "@type": "City", name: "Casares" },
@@ -157,7 +156,6 @@ export default function Home() {
     logo: absoluteUrl("/vbs-logo-casares.webp"),
     image: absoluteUrl("/luxe-woning-casares-zeezicht.webp"),
     sameAs: [
-      siteConfig.brand.parentUrl,
       siteConfig.social.instagram,
       siteConfig.social.facebook,
     ],
@@ -665,9 +663,9 @@ export default function Home() {
           </a>
           <p>
             Verhuurbeheer Casares is onderdeel van{" "}
-            <a href="https://www.verhuurbeheerspanje.nl/">
+            <span>
               Verhuurbeheer Spanje
-            </a>
+            </span>
             .
           </p>
           <div className="social-links">

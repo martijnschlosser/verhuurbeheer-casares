@@ -138,7 +138,6 @@ function LocalizedHome() {
     parentOrganization: {
       "@type": "Organization",
       name: "Verhuurbeheer Spanje",
-      url: "https://www.verhuurbeheerspanje.nl/",
     },
     areaServed: [
       { "@type": "City", name: "Casares" },
@@ -158,7 +157,6 @@ function LocalizedHome() {
     logo: absoluteUrl("/vbs-logo-casares.webp"),
     image: absoluteUrl("/terras-zonsondergang-casares.webp"),
     sameAs: [
-      siteConfig.brand.parentUrl,
       siteConfig.social.instagram,
       siteConfig.social.facebook,
     ],
@@ -635,9 +633,9 @@ function LocalizedHome() {
           </a>
           <p>
             Property Management Casares is part of{" "}
-            <a href="https://www.verhuurbeheerspanje.nl/">
+            <span>
               Verhuurbeheer Spanje
-            </a>
+            </span>
             .
           </p>
           <div className="social-links">
