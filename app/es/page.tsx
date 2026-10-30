@@ -148,7 +148,7 @@ function LocalizedHome() {
     ],
     telephone: siteConfig.contact.phone,
     url: absoluteUrl("/es"),
-    logo: absoluteUrl("/vbs-logo-casares.webp"),
+    logo: absoluteUrl("/verhuurbeheer-casares-logo.webp"),
     image: absoluteUrl("/terras-zonsondergang-casares.webp"),
     knowsLanguage: ["nl", "en", "es"],
     knowsAbout: [
@@ -201,7 +201,7 @@ function LocalizedHome() {
           aria-label="Gestión de propiedades Casares – Home"
         >
           <img
-            src="/vbs-logo-casares.webp"
+            src="/verhuurbeheer-casares-logo.webp"
             alt="Gestión de propiedades Casares logo"
             width="54"
             height="54"
@@ -554,7 +554,7 @@ function LocalizedHome() {
         <div className="footer-brand">
           <a className="logo-lockup" href="/" aria-label="Home">
             <img
-              src="/vbs-logo-casares.webp"
+              src="/verhuurbeheer-casares-logo.webp"
               alt="Gestión de propiedades Casares"
               width={640}
               height={640}

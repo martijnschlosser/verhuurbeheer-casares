@@ -1,3 +1,8 @@
+import type { Metadata } from "next";
+import { homeLanguageAlternates } from "./language-alternates";
+
+export const metadata: Metadata = { alternates: homeLanguageAlternates };
+
 import { CookiePreferencesButton } from "./CookieConsent";
 import GeoAuthority, { geoLastReviewed, geoSources } from "./GeoAuthority";
 import {
@@ -147,7 +152,7 @@ export default function Home() {
     ],
     telephone: siteConfig.contact.phone,
     url: absoluteUrl(),
-    logo: absoluteUrl("/vbs-logo-casares.webp"),
+    logo: absoluteUrl("/verhuurbeheer-casares-logo.webp"),
     image: absoluteUrl("/luxe-woning-casares-zeezicht.webp"),
     knowsLanguage: ["nl", "en", "es"],
     knowsAbout: [
@@ -219,7 +224,7 @@ export default function Home() {
           aria-label="Verhuurbeheer Casares – naar Home"
         >
           <img
-            src="/vbs-logo-casares.webp"
+            src="/verhuurbeheer-casares-logo.webp"
             alt="Logo Verhuurbeheer Casares"
             width="54"
             height="54"
@@ -641,7 +646,7 @@ export default function Home() {
         <div className="footer-brand">
           <a className="logo-lockup" href="/" aria-label="Naar Home">
             <img
-              src="/vbs-logo-casares.webp"
+              src="/verhuurbeheer-casares-logo.webp"
               alt="Verhuurbeheer Casares"
               width={640}
               height={640}

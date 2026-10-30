@@ -10,6 +10,6 @@ export default function manifest(): MetadataRoute.Manifest {
     background_color: "#ffffff",
     theme_color: "#071d3a",
     lang: "nl",
-    icons: [{ src: "/vbs-logo-casares.webp", sizes: "640x640", type: "image/webp" }],
+    icons: [{ src: "/verhuurbeheer-casares-logo.webp", sizes: "640x640", type: "image/webp" }],
   };
 }

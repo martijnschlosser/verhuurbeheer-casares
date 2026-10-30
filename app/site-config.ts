@@ -24,7 +24,7 @@ export const siteConfig = {
     ],
   },
   assets: {
-    logo: "/vbs-logo-casares.webp",
+    logo: "/verhuurbeheer-casares-logo.webp",
     hero: "/casares-hero.webp",
     social: "/luxe-woning-casares-zeezicht.webp",
     signup: "/zonnig-terras-zeezicht-casares.webp",

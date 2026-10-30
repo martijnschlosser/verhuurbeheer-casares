@@ -59,7 +59,7 @@ export const metadata: Metadata = {
       "max-video-preview": -1,
     },
   },
-  icons: { icon: "/favicon-casares.png", apple: "/vbs-logo-casares.webp" },
+  icons: { icon: "/favicon-casares.png", apple: "/verhuurbeheer-casares-logo.webp" },
   manifest: "/manifest.webmanifest",
   category: "vastgoedbeheer",
   verification: siteConfig.analytics.searchConsoleVerification
